@@ -1,6 +1,6 @@
 # archive-auditor
 
-Checks that the published Close Call sweep archive keeps up with the referee and that each record hashes to the file the referee signed, and spends inference to triage the open participant issues.
+Audits Flop's public records: hashes the newest sweep records of every Technocore contest archive when it grows, counts open issues and pull requests and the last merge on every flop-labs repository, and spends inference to sort the open issues.
 
 Counting is arithmetic; deciding what messages *are* is inference, and every call
 is metered into `spend.jsonl`. Nothing is published unless `--publish` is passed.
