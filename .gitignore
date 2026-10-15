@@ -6,3 +6,5 @@ spend.jsonl
 agent.log
 __pycache__/
 audit-state.json
+chain-seed.txt
+chain-account.txt
